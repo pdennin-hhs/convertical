@@ -16,10 +16,9 @@ jobs:
       - run: npm init -y
       - run: npm install node-ical jsdom
       - run: node index.js
-      - name: Push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add rss.xml index.html
           git commit -m "Auto-update RSS feed and HTML page"
-          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git HEAD:main
+          git push
