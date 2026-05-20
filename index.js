@@ -1,7 +1,6 @@
 // index.js
 const fs = require('fs');
 const ical = require('node-ical');
-const { JSDOM } = require('jsdom');
 
 const icalUrl = 'https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics';
 const outputFile = 'rss.xml';
