@@ -6,6 +6,18 @@ const icalUrl = 'https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics';
 const outputFile = 'rss.xml';
 const outputHtmlFile = 'index.html';
 
+function formatDate(date) {
+  const options = {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+  };
+  return date.toLocaleString('en-US', options).replace(',', '');
+}
+
 async function generateRss() {
   try {
     console.log('Fetching iCal feed...');
@@ -13,12 +25,16 @@ async function generateRss() {
 
     const items = Object.values(data)
       .filter(event => event.type === 'VEVENT')
-      .map(event => ({
-        title: event.summary,
-        description: event.description || '',
-        pubDate: new Date(event.start).toUTCString(),
-        link: event.url || icalUrl,
-      }))
+      .map(event => {
+        const startDate = new Date(event.start);
+        const formattedDate = formatDate(startDate);
+        return {
+          title: `${formattedDate}: ${event.summary}`,
+          description: event.description || '',
+          pubDate: startDate.toUTCString(),
+          link: event.url || icalUrl,
+        };
+      })
       .sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
 
     console.log(`Found ${items.length} events.`);
@@ -75,7 +91,6 @@ async function generateRss() {
         item => `
       <li>
         <h3><a href="${item.link}">${item.title}</a></h3>
-        <p><strong>Date:</strong> ${new Date(item.pubDate).toLocaleString()}</p>
         <p>${item.description}</p>
       </li>
     `,
