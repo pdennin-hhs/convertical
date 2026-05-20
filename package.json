@@ -1,5 +1,5 @@
 {
-  "name": "ical-to-rss",
+  "name": "convertical",
   "version": "1.0.0",
   "description": "Convert iCal to RSS and host on GitHub Pages",
   "main": "index.js",
