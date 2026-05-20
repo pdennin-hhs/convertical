@@ -61,7 +61,7 @@ async function generateRss() {
           return {
             title: `${formattedDate}: ${event.summary}`,
             description: event.description || '',
-            pubDate: startDate.toUTCString(),
+            pubDate: startDate.toUTCString(), // Ensure this is the start date in UTC
             link: event.url || url,
           };
         })
