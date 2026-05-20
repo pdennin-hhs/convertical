@@ -2,8 +2,10 @@
 const fs = require('fs');
 const ical = require('node-ical');
 
-const icalUrl = 'https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics';
-const outputFile = 'rss.xml';
+const icalUrls = [
+  { url: 'https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics', outputFile: 'rss.xml' },
+  { url: 'https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics', outputFile: 'rss2.xml' },
+];
 const outputHtmlFile = 'index.html';
 
 function getOrdinalSuffix(day) {
@@ -25,32 +27,40 @@ function formatDate(date) {
   const ampm = hours >= 12 ? 'PM' : 'AM';
   const formattedHours = hours % 12 || 12;
 
-  return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)} at ${formattedHours}:${minutes} ${ampm}`;
+  // Check if the event is all day (no specific time)
+  const isAllDay = hours === 0 && minutes === '00';
+
+  if (isAllDay) {
+    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)}: All Day`;
+  } else {
+    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)} at ${formattedHours}:${minutes} ${ampm}`;
+  }
 }
 
 async function generateRss() {
   try {
-    console.log('Fetching iCal feed...');
-    const data = await ical.async.fromURL(icalUrl);
+    console.log('Fetching iCal feeds...');
+    const allItems = [];
 
-    const items = Object.values(data)
-      .filter(event => event.type === 'VEVENT')
-      .map(event => {
-        const startDate = new Date(event.start);
-        const formattedDate = formatDate(startDate);
-        return {
-          title: `${formattedDate}: ${event.summary}`,
-          description: event.description || '',
-          pubDate: startDate.toUTCString(),
-          link: event.url || icalUrl,
-        };
-      })
-      .sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
+    for (const { url, outputFile } of icalUrls) {
+      const data = await ical.async.fromURL(url);
+      const items = Object.values(data)
+        .filter(event => event.type === 'VEVENT')
+        .map(event => {
+          const startDate = new Date(event.start);
+          const formattedDate = formatDate(startDate);
+          return {
+            title: `${formattedDate}: ${event.summary}`,
+            description: event.description || '',
+            pubDate: startDate.toUTCString(),
+            link: event.url || url,
+          };
+        })
+        .sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
+      allItems.push(...items);
 
-    console.log(`Found ${items.length} events.`);
-
-    // Generate RSS XML
-    const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+      // Generate RSS XML for this feed
+      const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>HHS Calendar RSS Feed</title>
@@ -71,8 +81,11 @@ async function generateRss() {
   </channel>
 </rss>`;
 
-    fs.writeFileSync(outputFile, rssXml);
-    console.log('RSS feed generated:', outputFile);
+      fs.writeFileSync(outputFile, rssXml);
+      console.log(`RSS feed generated: ${outputFile}`);
+    }
+
+    console.log(`Found ${allItems.length} total events.`);
 
     // Generate HTML page
     const html = `
@@ -81,7 +94,7 @@ async function generateRss() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HHS Calendar RSS Feed</title>
+  <title>HHS Calendar RSS Feeds</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 2rem; }
     h1 { color: #2c3e50; }
@@ -92,20 +105,11 @@ async function generateRss() {
   </style>
 </head>
 <body>
-  <h1>HHS Calendar RSS Feed</h1>
-  <p>Subscribe to this <a href="rss.xml">RSS feed</a> in your RSS reader.</p>
-  <h2>Upcoming Events</h2>
+  <h1>HHS Calendar RSS Feeds</h1>
+  <p>Subscribe to these RSS feeds in your RSS reader:</p>
   <ul>
-    ${items
-      .map(
-        item => `
-      <li>
-        <h3><a href="${item.link}">${item.title}</a></h3>
-        <p>${item.description}</p>
-      </li>
-    `,
-      )
-      .join('')}
+    <li><a href="rss.xml">RSS Feed 1 (calendar_361.ics)</a></li>
+    <li><a href="rss2.xml">RSS Feed 2 (calendar_354.ics)</a></li>
   </ul>
 </body>
 </html>
@@ -114,7 +118,7 @@ async function generateRss() {
     fs.writeFileSync(outputHtmlFile, html);
     console.log('HTML page generated:', outputHtmlFile);
   } catch (error) {
-    console.error('Error generating RSS feed:', error);
+    console.error('Error generating RSS feeds:', error);
     process.exit(1);
   }
 }
