@@ -1,0 +1,13 @@
+{
+  "name": "ical-to-rss",
+  "version": "1.0.0",
+  "description": "Convert iCal to RSS and host on GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-ical": "^0.18.0",
+    "jsdom": "^22.1.0"
+  }
+}
