@@ -8,6 +8,15 @@ const icalUrls = [
 ];
 const outputHtmlFile = 'index.html';
 
+function escapeXml(unsafe) {
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 function getOrdinalSuffix(day) {
   if (day > 3 && day < 21) return 'th';
   switch (day % 10) {
@@ -70,10 +79,10 @@ async function generateRss() {
       .map(
         item => `
       <item>
-        <title>${item.title}</title>
-        <description>${item.description}</description>
+        <title>${escapeXml(item.title)}</title>
+        <description>${escapeXml(item.description)}</description>
         <pubDate>${item.pubDate}</pubDate>
-        <link>${item.link}</link>
+        <link>${escapeXml(item.link)}</link>
       </item>
     `,
       )
