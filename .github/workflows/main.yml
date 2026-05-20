@@ -26,6 +26,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add rss.xml index.html
-          git commit -m "Auto-update RSS feed and HTML page" || echo "No changes to commit"
+          git add rss.xml rss2.xml index.html
+          git commit -m "Auto-update RSS feeds and HTML page" || echo "No changes to commit"
           git push
