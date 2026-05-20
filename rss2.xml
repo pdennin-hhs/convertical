@@ -1,1 +1,149 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>HHS Calendar RSS Feed</title>
+    <description>RSS feed for HHS Calendar</description>
+    <link>https://pdennin-hhs,convertical.github.io/pdennin-hhs,convertical/</link>
+    
+      <item>
+        <title>Wed, May 20th: All Day: AP Late-Testing</title>
+        <description>8am - Microec, Seminar, Stats. 12pm - Bio, Chem, French, Macroec</description>
+        <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Wed, May 20th at 12:45 PM: IGNITE Final Presentations</title>
+        <description></description>
+        <pubDate>Wed, 20 May 2026 12:45:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Wed, May 20th at 7:00 PM: HS Spring Choral Concert</title>
+        <description></description>
+        <pubDate>Wed, 20 May 2026 19:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Thu, May 21st: All Day: AP Late-Testing</title>
+        <description>8am - Chinese, Comp Science, Eng Lang, Music, Precalc. 12pm - Art Hist, Calc AB, Calc BC, Italian, Physics C, Physics 2</description>
+        <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Fri, May 22nd: All Day: AP Late-Testing</title>
+        <description>8am - Enviro Science, Physics 1, Spanish, Spanish Lit. 12pm - Comp Science A, German, Physics C, Psych</description>
+        <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, May 26th at 9:00 AM: Senior Scholarship Awards</title>
+        <description></description>
+        <pubDate>Tue, 26 May 2026 09:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, May 26th at 7:00 PM: HS Band & Strings Recital</title>
+        <description></description>
+        <pubDate>Tue, 26 May 2026 19:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Wed, May 27th at 7:30 AM: Senior Decision Breakfast</title>
+        <description></description>
+        <pubDate>Wed, 27 May 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Thu, May 28th: All Day: Senior Finals - Block 3 & 4</title>
+        <description></description>
+        <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Fri, May 29th: All Day: Senior Cap and Gown Distribution</title>
+        <description></description>
+        <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Fri, May 29th: All Day: Senior Finals - Block 1 & 2</title>
+        <description></description>
+        <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Thu, Jun 4th: All Day: Class of 2026 Graduation</title>
+        <description></description>
+        <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jun 9th at 6:00 PM: HHS Athletics Fall Sports Night</title>
+        <description></description>
+        <pubDate>Tue, 09 Jun 2026 18:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Fri, Jun 12th at 7:30 AM: Semester 2 Final Exams</title>
+        <description></description>
+        <pubDate>Fri, 12 Jun 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Mon, Jun 15th at 7:30 AM: Semester 2 Final Exams</title>
+        <description></description>
+        <pubDate>Mon, 15 Jun 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jun 16th at 7:30 AM: Last Day of School for Students / Semester 2 Exam Make-up</title>
+        <description></description>
+        <pubDate>Tue, 16 Jun 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Aug 4th at 12:00 PM: Common App Completion Day</title>
+        <description>HHS Library</description>
+        <pubDate>Tue, 04 Aug 2026 12:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Aug 11th at 12:00 PM: Common App Completion Day</title>
+        <description>HHS Library</description>
+        <pubDate>Tue, 11 Aug 2026 12:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Sep 8th at 7:30 AM: Student & Staff Photo ID's</title>
+        <description>HHS Auditorium</description>
+        <pubDate>Tue, 08 Sep 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+      <item>
+        <title>Fri, Oct 16th at 7:30 AM: Student & Staff Photo Retakes</title>
+        <description>HHS Auditorium</description>
+        <pubDate>Fri, 16 Oct 2026 07:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics</link>
+      </item>
+    
+  </channel>
+</rss>
