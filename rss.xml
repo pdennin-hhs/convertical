@@ -5,23 +5,5 @@
     <description>RSS feed for HHS Calendar</description>
     <link>https://pdennin-hhs,convertical.github.io/pdennin-hhs,convertical/</link>
     
-      <item>
-        <title>Sat, May 23rd at 9:00 AM: BOYS (V) TRACK AND FIELD [T]</title>
-        <description>
-Haverford High School BOYS (V) TRACK AND FIELD
-For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Sat, 23 May 2026 09:00:00 GMT</pubDate>
-        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
-      </item>
-    
-      <item>
-        <title>Sat, May 23rd at 9:00 AM: GIRLS (V) TRACK AND FIELD [T]</title>
-        <description>
-Haverford High School GIRLS (V) TRACK AND FIELD
-For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Sat, 23 May 2026 09:00:00 GMT</pubDate>
-        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
-      </item>
-    
   </channel>
 </rss>
