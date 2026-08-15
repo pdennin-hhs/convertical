@@ -411,17 +411,6 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Mon, Aug 31st at 3:30 PM: Boys and Girls (JV) GOLF [H]</title>
-        <description>Home Game
-Haverford High School Boys and Girls (JV) GOLF
-The Shipley School Boys and Girls (JV) GOLF
-Facility name: MERION WEST GOLF COURSE
-For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Mon, 31 Aug 2026 15:30:00 GMT</pubDate>
-        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
-      </item>
-    
-      <item>
         <title>Mon, Aug 31st at 3:30 PM: GIRLS (JV) VOLLEYBALL [H]</title>
         <description>Home Game
 Haverford High School GIRLS (JV) VOLLEYBALL
@@ -1862,10 +1851,10 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Thu, Sep 24th at 4:00 PM: GIRLS (JV) VOLLEYBALL [A]</title>
+        <title>Thu, Sep 24th at 4:00 PM: GIRLS (V) VOLLEYBALL [A]</title>
         <description>Away Game
-Haverford High School GIRLS (JV) VOLLEYBALL
-@ Harriton High School GIRLS (JV) VOLLEYBALL
+Haverford High School GIRLS (V) VOLLEYBALL
+@ Harriton High School GIRLS (V) VOLLEYBALL
 Facility name: Harriton Main Gym
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Thu, 24 Sep 2026 16:00:00 GMT</pubDate>
@@ -1895,10 +1884,10 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Thu, Sep 24th at 5:15 PM: GIRLS (V) VOLLEYBALL [A]</title>
+        <title>Thu, Sep 24th at 5:15 PM: GIRLS (JV) VOLLEYBALL [A]</title>
         <description>Away Game
-Haverford High School GIRLS (V) VOLLEYBALL
-@ Harriton High School GIRLS (V) VOLLEYBALL
+Haverford High School GIRLS (JV) VOLLEYBALL
+@ Harriton High School GIRLS (JV) VOLLEYBALL
 Facility name: Harriton Main Gym
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Thu, 24 Sep 2026 17:15:00 GMT</pubDate>
@@ -2062,6 +2051,17 @@ Strath Haven High School GIRLS (V) VOLLEYBALL
 Facility name: HHS GYM - 
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Mon, 28 Sep 2026 17:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
+      </item>
+    
+      <item>
+        <title>Tue, Sep 29th at 3:30 PM: Boys and Girls (JV) GOLF [H]</title>
+        <description>Home Game
+Haverford High School Boys and Girls (JV) GOLF
+The Shipley School Boys and Girls (JV) GOLF
+Facility name: MERION WEST GOLF COURSE
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Tue, 29 Sep 2026 15:30:00 GMT</pubDate>
         <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
       </item>
     
