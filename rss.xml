@@ -882,16 +882,6 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Wed, Sep 9th at 3:45 PM: GIRLS (V) VOLLEYBALL [A]</title>
-        <description>Away Game
-Haverford High School GIRLS (V) VOLLEYBALL
-@ Upper Darby High School GIRLS (V) VOLLEYBALL
-For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Wed, 09 Sep 2026 15:45:00 GMT</pubDate>
-        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
-      </item>
-    
-      <item>
         <title>Wed, Sep 9th at 4:00 PM: BOYS (V) CROSS COUNTRY [A]</title>
         <description>Away Game
 Haverford High School BOYS (V) CROSS COUNTRY
@@ -901,6 +891,17 @@ Ridley High School BOYS (V) CROSS COUNTRY
 Strath Haven High School BOYS (V) CROSS COUNTRY
 @ Garnet Valley High School BOYS (V) CROSS COUNTRY
 Facility name: Rose Tree Park
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Wed, 09 Sep 2026 16:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
+      </item>
+    
+      <item>
+        <title>Wed, Sep 9th at 4:00 PM: GIRLS (JV) VOLLEYBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (JV) VOLLEYBALL
+@ Upper Darby High School GIRLS (JV) VOLLEYBALL
+Facility name: UDHS Main Gym
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Wed, 09 Sep 2026 16:00:00 GMT</pubDate>
         <link>https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics</link>
@@ -936,10 +937,10 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Wed, Sep 9th at 5:00 PM: GIRLS (JV) VOLLEYBALL [A]</title>
+        <title>Wed, Sep 9th at 5:00 PM: GIRLS (V) VOLLEYBALL [A]</title>
         <description>Away Game
-Haverford High School GIRLS (JV) VOLLEYBALL
-@ Upper Darby High School GIRLS (JV) VOLLEYBALL
+Haverford High School GIRLS (V) VOLLEYBALL
+@ Upper Darby High School GIRLS (V) VOLLEYBALL
 Facility name: UDHS Main Gym
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Wed, 09 Sep 2026 17:00:00 GMT</pubDate>
