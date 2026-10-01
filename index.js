@@ -3,7 +3,7 @@ const fs = require('fs');
 const ical = require('node-ical');
 
 const icalUrls = [
-  { url: 'https://hhs.haverford.k12.pa.us/calendar/calendar_361.ics', outputFile: 'rss.xml' },
+  { url: 'https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&feedID=47B79DB289374C72A8D3C80E0200E5E9', outputFile: 'rss.xml' },
   { url: 'https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics', outputFile: 'rss2.xml' },
 ];
 const outputHtmlFile = 'index.html';
