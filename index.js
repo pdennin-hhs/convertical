@@ -4,7 +4,7 @@ const ical = require('node-ical');
 
 const icalUrls = [
   { url: 'https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&feedID=47B79DB289374C72A8D3C80E0200E5E9', outputFile: 'rss.xml' },
-  { url: 'https://hhs.haverford.k12.pa.us/calendar/calendar_354.ics', outputFile: 'rss2.xml' },
+  { url: 'https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&feedID=5BF34C0997544D1EB1D7E67906BD7A78', outputFile: 'rss2.xml' },
 ];
 const outputHtmlFile = 'index.html';
 
