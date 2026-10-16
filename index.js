@@ -28,6 +28,9 @@ function getOrdinalSuffix(day) {
 }
 
 function formatDate(date) {
+  const today = new Date();
+  const dd = today.getDate();
+  const mm = today.toLocaleString('default', { month: 'short' });
   const day = date.getDate();
   const month = date.toLocaleString('default', { month: 'short' });
   const weekday = date.toLocaleString('default', { weekday: 'short' });
@@ -39,10 +42,18 @@ function formatDate(date) {
   // Check if the event is all day (no specific time)
   const isAllDay = hours === 0 && minutes === '00';
 
+  const isToday = day === dd && month === mm;
+
   if (isAllDay) {
+    if (isToday) {
+      return `All Day`;
+    }
     return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)}: All Day`;
   } else {
-    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)} at ${formattedHours}:${minutes} ${ampm}`;
+    if (isToday) {
+      return `${formattedHours}:${minutes} ${ampm}`;
+    }
+    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)} at ${formattedHours}:${minutes} ${ampm}`;  
   }
 }
 
