@@ -46,9 +46,9 @@ function formatDate(date) {
 
   if (isAllDay) {
     if (isToday) {
-      return `All Day`;
+      return `Today`;
     }
-    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)}: All Day`;
+    return `${weekday}, ${month} ${day}${getOrdinalSuffix(day)}`;
   } else {
     if (isToday) {
       return `${formattedHours}:${minutes} ${ampm}`;
