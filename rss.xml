@@ -6,18 +6,7 @@
     <link>https://pdennin-hhs,convertical.github.io/pdennin-hhs,convertical/</link>
     
       <item>
-        <title>6:30 PM: GIRLS (V) SOCCER [A]</title>
-        <description>Away Game
-Haverford High School GIRLS (V) SOCCER
-@ Penncrest High School GIRLS (V) SOCCER
-Facility name: Louis Scott Stadium at PHS
-For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Tue, 27 Oct 2026 18:30:00 GMT</pubDate>
-        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
-      </item>
-    
-      <item>
-        <title>Wed, Oct 28th at 3:30 PM: BOYS (FR) FOOTBALL [A]</title>
+        <title>3:30 PM: BOYS (FR) FOOTBALL [A]</title>
         <description>Away Game
 Haverford High School BOYS (FR) FOOTBALL
 @ Chichester High School BOYS (FR) FOOTBALL
@@ -1232,6 +1221,17 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
+        <title>Thu, Jan 7th at 3:45 PM: GIRLS (FR) BASKETBALL [H]</title>
+        <description>Home Game
+Villa Maria Academy GIRLS (FR) BASKETBALL
+Haverford High School GIRLS (FR) BASKETBALL
+Facility name: HHS GYM - 
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Thu, 07 Jan 2027 15:45:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
         <title>Thu, Jan 7th at 5:30 PM: BOYS (JV) BASKETBALL [A]</title>
         <description>Away Game
 Haverford High School BOYS (JV) BASKETBALL
@@ -1275,24 +1275,24 @@ For more details about this event or other information about your school please 
       </item>
     
       <item>
-        <title>Fri, Jan 8th at 7:00 PM: BOYS (V) Swimming and Diving [H]</title>
-        <description>Home Game
-Conestoga High School BOYS (V) Swimming and Diving
+        <title>Fri, Jan 8th at 6:30 PM: BOYS (V) Swimming and Diving [A]</title>
+        <description>Away Game
+@ Conestoga High School BOYS (V) Swimming and Diving
 Haverford High School BOYS (V) Swimming and Diving
-Facility name: The Haverford School Pool
+Facility name: Upper Main Line YMCA
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Fri, 08 Jan 2027 19:00:00 GMT</pubDate>
+        <pubDate>Fri, 08 Jan 2027 18:30:00 GMT</pubDate>
         <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
       </item>
     
       <item>
-        <title>Fri, Jan 8th at 7:00 PM: GIRLS (V) Swimming and Diving [H]</title>
-        <description>Home Game
-Conestoga High School GIRLS (V) Swimming and Diving
+        <title>Fri, Jan 8th at 6:30 PM: GIRLS (V) Swimming and Diving [A]</title>
+        <description>Away Game
+@ Conestoga High School GIRLS (V) Swimming and Diving
 Haverford High School GIRLS (V) Swimming and Diving
-Facility name: The Haverford School Pool
+Facility name: Upper Main Line YMCA
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
-        <pubDate>Fri, 08 Jan 2027 19:00:00 GMT</pubDate>
+        <pubDate>Fri, 08 Jan 2027 18:30:00 GMT</pubDate>
         <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
       </item>
     
@@ -1772,6 +1772,39 @@ For more details about this event or other information about your school please 
         <title>Thu, Jan 21st at 3:45 PM: GIRLS (FR) BASKETBALL [A]</title>
         <description>Away Game
 Haverford High School GIRLS (FR) BASKETBALL
+@ Villa Maria Academy GIRLS (FR) BASKETBALL
+Facility name: Villa Maria Academy
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Thu, 21 Jan 2027 15:45:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Thu, Jan 21st at 3:45 PM: GIRLS (FR) BASKETBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (FR) BASKETBALL
+@ Villa Maria Academy GIRLS (FR) BASKETBALL
+Facility name: Villa Maria Academy
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Thu, 21 Jan 2027 15:45:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Thu, Jan 21st at 3:45 PM: GIRLS (FR) BASKETBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (FR) BASKETBALL
+@ Villa Maria Academy GIRLS (FR) BASKETBALL
+Facility name: Villa Maria Academy
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Thu, 21 Jan 2027 15:45:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Thu, Jan 21st at 3:45 PM: GIRLS (FR) BASKETBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (FR) BASKETBALL
 @ Ridley High School GIRLS (FR) BASKETBALL
 Facility name: Ridley High Green Gym
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
@@ -1963,6 +1996,49 @@ Haverford High School GIRLS (V) BASKETBALL
 Facility name: Delaware County Christian 
 For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
         <pubDate>Sat, 23 Jan 2027 12:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jan 26th at 5:30 PM: BOYS (JV) BASKETBALL [H]</title>
+        <description>Home Game
+Haverford High School BOYS (JV) BASKETBALL
+Garnet Valley High School BOYS (JV) BASKETBALL
+Facility name: HHS GYM - 
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Tue, 26 Jan 2027 17:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jan 26th at 5:30 PM: GIRLS (JV) BASKETBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (JV) BASKETBALL
+@ Garnet Valley High School GIRLS (JV) BASKETBALL
+Facility name: The 2020 Center (GVHS Gym #1)
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Tue, 26 Jan 2027 17:30:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jan 26th at 7:00 PM: BOYS (V) BASKETBALL [H]</title>
+        <description>Home Game
+Haverford High School BOYS (V) BASKETBALL
+Garnet Valley High School BOYS (V) BASKETBALL
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Tue, 26 Jan 2027 19:00:00 GMT</pubDate>
+        <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
+      </item>
+    
+      <item>
+        <title>Tue, Jan 26th at 7:00 PM: GIRLS (V) BASKETBALL [A]</title>
+        <description>Away Game
+Haverford High School GIRLS (V) BASKETBALL
+@ Garnet Valley High School GIRLS (V) BASKETBALL
+Facility name: The 2020 Center (GVHS Gym #1)
+For more details about this event or other information about your school please go to http://digitalsports.com and find your school.</description>
+        <pubDate>Tue, 26 Jan 2027 19:00:00 GMT</pubDate>
         <link>https://hhs.haverford.k12.pa.us/cf_calendar/feed.cfm?type=ical&amp;feedID=47B79DB289374C72A8D3C80E0200E5E9</link>
       </item>
     
