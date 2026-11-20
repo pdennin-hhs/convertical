@@ -66,6 +66,11 @@ async function generateRss() {
       const data = await ical.async.fromURL(url);
       const items = Object.values(data)
         .filter(event => event.type === 'VEVENT')
+        .filter(event => {
+          // Exclude events with 'Elementary' or 'Middle School' in the title (case-insensitive)
+          const title = event.summary || '';
+          return !title.toLowerCase().includes('elementary') && !title.toLowerCase().includes('middle school');
+        })
         .map(event => {
           const startDate = new Date(event.start);
           const formattedDate = formatDate(startDate);
