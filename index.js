@@ -69,7 +69,7 @@ async function generateRss() {
         .filter(event => {
           // Exclude events with 'Elementary' or 'Middle School' in the title (case-insensitive)
           const title = event.summary || '';
-          return !title.toLowerCase().includes('elementary') && !title.toLowerCase().includes('middle school') && !title.toLowerCase().includes('7th grade') && !title.toLowerCase().includes('8th grade') && !title.toLowerCase().includes('6th grade') && !title.toLowerCase().includes('school board') && !title.toLowerCase().includes('Dr. Hayes');
+          return !title.toLowerCase().includes('elementary') && !title.toLowerCase().includes('middle school') && !title.toLowerCase().includes('7th gr') && !title.toLowerCase().includes('8th gr') && !title.toLowerCase().includes('6th gr') && !title.toLowerCase().includes('school board') && !title.toLowerCase().includes('dr. hayes');
         })
         .map(event => {
           const startDate = new Date(event.start);
